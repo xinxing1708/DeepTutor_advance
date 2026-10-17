@@ -1,0 +1,22 @@
+{
+  "services/llm/learning_context.py": {
+    "original": null,
+    "patched": "ab1f5df67b9e910ecc4a8b48338ce51d50e61373073098ab660b7d794b278131"
+  },
+  "services/llm/factory.py": {
+    "original": "dee92bc40f741c566d9bbbd665bbf5172a08793cf231074d7784ed1457647050",
+    "patched": "7cc45b3bd698f3b914f78da6b99a8a2a959fe3470dd919f0ec37afd7546f9e94"
+  },
+  "runtime/agentic/client.py": {
+    "original": "7e35cde05d017c7e386d022983ccff0c69007ae957ed6a12ac42fc2824feb004",
+    "patched": "4703187502f3f45113615658f9e2a105d295487e7230dad77289bc6bdd08fec9"
+  },
+  "services/llm/provider_core/openai_responses/converters.py": {
+    "original": "12180067cd8e976ebdf81d143f956e6ad5a419f32dd3626e73c00af773dfb45d",
+    "patched": "78ef7f4d8b6825c182033cbcc45d268ad1f7754b20cc4a59184b40cc0cde7fdd"
+  },
+  "services/llm/provider_core/anthropic_provider.py": {
+    "original": "8d1a5fd24d9e3bce9f8a28586647e313c420fa31de0ed3b10d5a81e14483ce76",
+    "patched": "fb39af8a905e986d74de38308c6a3dc50a300a7a02c005cb4b40309791892aad"
+  }
+}
