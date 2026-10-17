@@ -1,0 +1,10 @@
+{
+  "name": "deeptutor-local-enhancements",
+  "private": true,
+  "scripts": {
+    "test:frontend": "node extensions/chat_continuation/test_continuation.cjs && node extensions/chat_continuation/test_edit_request.cjs && node extensions/chat_continuation/test_edit.cjs && node extensions/chat_continuation/test_quiz_callbacks.cjs && node extensions/chat_continuation/test_quiz_continuation.cjs && node extensions/frontend_images/test_diagrams.cjs && node extensions/frontend_images/test_images.cjs"
+  },
+  "devDependencies": {
+    "@babel/parser": "8.0.4"
+  }
+}

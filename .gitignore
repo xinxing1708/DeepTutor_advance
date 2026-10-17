@@ -1,0 +1,39 @@
+# Local settings, credentials and runtime data
+.env
+.env.*
+!.env.example
+**/auth.json
+**/model_catalog.json
+**/mcp.json
+**/learner_profile.md
+**/global_learning_context.md
+**/chat_history*.db*
+**/learning_review.db*
+**/usage.sqlite3*
+**/data/
+**/diagnostics/
+**/logs/
+**/.runtime/
+**/runtime/
+**/knowledge_bases/
+**/models/
+**/indexes/
+**/vectors/
+**/ocr-cache/
+
+# Build output and backups
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/node_modules/
+**/.next/cache/
+**/backups/
+**/backup/
+*.log
+*.tmp
+*.swp
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
