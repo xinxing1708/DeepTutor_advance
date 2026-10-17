@@ -1,0 +1,46 @@
+{
+  "reading/extract.py": {
+    "original": "e5fd72ee549724dc0f39f52b18352e5964dea9aead35b145c267f6285fb7a96c",
+    "patched": "82310fd06497df86ac62c5e9b0daae6810e5fceb06668ab720fb79d7deb7e8d4"
+  },
+  "reading/store.py": {
+    "original": "67cb21af083a7fce078fc06d18d51d5259662d0c9f5707b810fbda724add4711",
+    "patched": "afadd9cc4bf23198730b5b6c3a988ba9f8cfdd5eeea5b9587bd0f81323d4b398"
+  },
+  "utils/document_extractor.py": {
+    "original": "b77aaa2df03f24b92d16370607412f141daa7d320f154c645f062e6afe3ae508",
+    "patched": "53e355b4ba9f681bc7afacb25bfd2ad5c6b23610ae729fd7072e3f31d2672770"
+  },
+  "tools/builtin/__init__.py": {
+    "original": "27f7598be52707c9d9171a26b824718b76381ab383cfb6a1aaffaa2857197fa3",
+    "patched": "cd27299452e26988eddd3b08dfb8b58a5be1477f99320651854a350fea682c29"
+  },
+  "services/session/turns/executor.py": {
+    "original": "f45111b0b599f5fb193cffcc59166d7ae2c6ead21ff8bf554eed140d040dff9f",
+    "patched": "46b0025967413a4580da0e23749af05ac055920ccc68c65a6f9afea026993994"
+  },
+  "capabilities/explore_context/capability.py": {
+    "original": "23781cc5dfef76b395f876fa763e4e0d3d8acdea808fddc20c2b7a6c06be3553",
+    "patched": "e2183209b71f5689dfeac8cc44ad4f65bc8efa65868ff26d9c3c668ba44760b5"
+  },
+  "capabilities/reading/tools.py": {
+    "original": "1788f9e2b9329ea8068de7312bcce369c90f6c7f4ae34b75d6da6a8a633cd89d",
+    "patched": "dae9a3bdf034d43b3267d6ac0b501b03d8c914460216526c64c18be4fa2fed69"
+  },
+  "api/routers/reading.py": {
+    "original": "1c06480730b7ee53c9a097bdd8318dfec3ae18a0885083ed5bd06a7288d64c24",
+    "patched": "b6d21574daa7403a53a9824225fa0d6a60db5a0243bf73d948c8c2e65e07a536"
+  },
+  "services/parsing/engines/text_only/engine.py": {
+    "original": "cc7cf161c9b22fea8fc6c745e8159ed6aea3f43150188320921e263301377624",
+    "patched": "f2cd108b8ac26666a1c2cae2befdd81812262a9eb4181c1edb2c2533fc08071e"
+  },
+  "services/rag/pipelines/llamaindex/document_loader.py": {
+    "original": "ade6e87ae2feaa4a1ec9b810d4b6fb89e8ea81680e9d9bd924618753f4bd14a8",
+    "patched": "2ccd71b02adf49d5cba34b332bc052aa81107e57cc2e631954b021d28f48b7bd"
+  },
+  "services/rag/pipelines/llamaindex/pipeline.py": {
+    "original": "442c10d09b7e6a3b7b83b20048ed9d23ce3532724a59ea2add5d590ad7d65f61",
+    "patched": "f6fad9bf2bfa45f1b7fc948684469aee620e455de57bceea2c520695ff330eaf"
+  }
+}
