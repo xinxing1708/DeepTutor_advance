@@ -1,0 +1,15 @@
+[
+  ".next/server/app/chat.html",
+  ".next/server/app/chat.rsc",
+  ".next/server/app/chat.segments/_full.segment.rsc",
+  ".next/server/app/chat.segments/!KHdvcmtzcGFjZSk/chat/__PAGE__.segment.rsc",
+  ".next/server/app/(workspace)/chat/page_client-reference-manifest.js",
+  ".next/server/app/(workspace)/partners/groups/[groupId]/page_client-reference-manifest.js",
+  ".next/server/app/(workspace)/learning/reading/[workspaceId]/page_client-reference-manifest.js",
+  ".next/server/app/(workspace)/learning/reading/[workspaceId]/sessions/page_client-reference-manifest.js",
+  ".next/server/app/(workspace)/learning/reading/[workspaceId]/sessions/[sessionId]/page_client-reference-manifest.js",
+  ".next/server/app/(workspace)/learning/mastery/[pathId]/sessions/page_client-reference-manifest.js",
+  ".next/server/app/(workspace)/learning/mastery/[pathId]/sessions/[sessionId]/page_client-reference-manifest.js",
+  ".next/server/app/(workspace)/chat/[sessionId]/page_client-reference-manifest.js",
+  ".next/build-manifest.json"
+]
