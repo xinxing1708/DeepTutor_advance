@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deeptutor-local-learner-profile"
+version = "0.1.0"
+description = "Inject and explicitly update a local learner profile in DeepTutor chats"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.entry-points."deeptutor.extensions"]
+learner_profile = "deeptutor_learner_profile.extension:LearnerProfileExtension"
+
+[project.entry-points."deeptutor.tools"]
+learner_profile_update = "deeptutor_learner_profile.extension:LearnerProfileUpdate"
+
+[tool.setuptools.packages.find]
+include = ["deeptutor_learner_profile*"]
