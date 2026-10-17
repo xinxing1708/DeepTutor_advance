@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deeptutor-local-pdf-ocr"
+version = "0.1.0"
+description = "Local PDF OCR and on-demand original-page verification for DeepTutor 1.6.8"
+requires-python = ">=3.11"
+dependencies = ["rapidocr-onnxruntime==1.2.3", "pymupdf>=1.26", "filelock>=3"]
+
+[project.entry-points."deeptutor.extensions"]
+pdf_ocr = "deeptutor_pdf_ocr.extension:PdfOcrExtension"
+
+[tool.setuptools.packages.find]
+include = ["deeptutor_pdf_ocr*"]
