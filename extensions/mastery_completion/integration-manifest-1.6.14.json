@@ -1,0 +1,66 @@
+{
+  "capabilities/mastery/loop.py": {
+    "original": "c5bbacd13e2b40d8c59da236e67fa2bbda003f318ed462ba837b52e7b2806dd7",
+    "patched": "ad8ada0a148c13464f828aee68851cbb33c91ff8706a67cefe4789a206299134"
+  },
+  "capabilities/mastery/prompts/en/mastery_loop.yaml": {
+    "original": "fd63afcc130f7c18b7bdaae77c47e65ff6a01b8ac3d9fc65d1580d59f0e6172b",
+    "patched": "6b8664d25fbf58661d37e2676ed75e78c2c4b875dc1146067644d4ac93c80886"
+  },
+  "capabilities/mastery/prompts/zh/mastery_loop.yaml": {
+    "original": "4df64164ad95ff0fcd3072bb65cf7811c16c2fa0d65db9c33efbb627a18acffd",
+    "patched": "2fe0799385ac29390b6235352f289262c83579184300a577c7afc05ffed4b229"
+  },
+  "capabilities/mastery/tools.py": {
+    "original": "b6be3c50425472056c4744f7d80917a6a2e3ccd8226f752e1d9e4092608c3872",
+    "patched": "3bffcf59f9f52a649c3521e49bdc3edebb3a5504cb069e10cf612180f71ef407"
+  },
+  "learning/grading.py": {
+    "original": "7f35f9d4dbf6169aa32139a7808eed20be19d41a939d585237b3566d0f8f3c1c",
+    "patched": "5fdc8f1cc28e203694024e046bea79a45e09f3c6e7905ae5d371d268515d12b7"
+  },
+  "learning/mastery.py": {
+    "original": "318e1001a9cfeea744742bbb5d232d54bc72b3f915c7ef93f82683f038a66fd6",
+    "patched": "0af81a52d87e49d655262cf666caa114adeb9dba5264b4e96fd1404383f553c8"
+  },
+  "learning/models.py": {
+    "original": "66e8188c601cee457a0bc17d66b3a20e0181a2b2a0c51355b2ef9225ca5e3f4a",
+    "patched": "54e044af5f533696646592616638900afb55dd3e959ec06c84dacdc7c61e1fa5"
+  },
+  "learning/pending.py": {
+    "original": "3d87c79716577e3dd36a6ac688dcf9926b4b39e3998b85a43bd7bb4bb0b886e3",
+    "patched": "2c63b12effae648b818ec6f43092d124c067befaefa24faeb774e19ff326e2ac"
+  },
+  "learning/policy.py": {
+    "original": "07f4f8cf5911c1c383a674844c84adfd7355a2b28cfd1620742272514138e91c",
+    "patched": "d150fce883562985c09b2530c6d4623ba773a11743b61248587753a0bdd3cc88"
+  },
+  "learning/service.py": {
+    "original": "db80368e5fdbae06228193a09d65edf25375dd6f79fc2e75d92af6d18ea6e35b",
+    "patched": "1bfcae2b535383d3b8ced2cdeb3992ac360f616cbe622c97f8b6d2a87993f408"
+  },
+  "learning/tests/test_grading.py": {
+    "original": "8b1608324c321d93f6c062eca5dc37f6762598f7c7c23214a62b3eb8c827563c",
+    "patched": "85a187ed4f9c1fc947a92718e4b46dbadf08ebea781ebac4ba8f389e7491e280"
+  },
+  "learning/tests/test_guided_mastery_updates.py": {
+    "original": "cd88beb3d67631d9d981a1152f33ade94221a304c899f4b8c6f6d5c800255b0e",
+    "patched": "8718bd6929ee719436fe738b6f17212829b81de7c6e0871c755183b9b8084093"
+  },
+  "learning/tests/test_mastery_state_integrity.py": {
+    "original": "5ff44f664a49557c49235184003c9b277d944b1991cd12b4cc8086bb6584b1d9",
+    "patched": "96f2a1e33a97db8ca9a4968d0b5488d62f362c9e25e6fd08fec089cf743cac84"
+  },
+  "learning/tests/test_mastery_tools.py": {
+    "original": "fa229ff9f75c2e5bba59f6311820a9f9db5fe0337718425015f030e97a7a4f8d",
+    "patched": "3a8ce2f914398003f5b3aeb0ccf7119fce86286ca7f8fb985687569513a5d907"
+  },
+  "learning/tests/test_mastery_v2_tools.py": {
+    "original": null,
+    "patched": "f9f2402d29c653d3a43afbc51916e29f3d3bf4159e41314e8bc5af12e3723379"
+  },
+  "learning/tests/test_service_replace_merge.py": {
+    "original": "98f4a5e0e68eec13bcf0b72dadc212bfd0e6776f8107da8a592f84897207a0b3",
+    "patched": "26912d7227fab5a50d38daa18ead355a9ee8f21e7f251eabaaa1379845702b97"
+  }
+}
