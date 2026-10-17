@@ -1,0 +1,6 @@
+{
+  "plugins/registry.py": {
+    "original": "2df9afd067235ef93b4a50699f3417e4eddd927af36504b5d304406cd971f332",
+    "patched": "cea3cc8c9068d5ad277fff70dca92c0c8f34ae7149d541ca698e0ed2c502e593"
+  }
+}
