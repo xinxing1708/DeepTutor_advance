@@ -1,0 +1,198 @@
+{
+  "version": "1.6.14",
+  "files": [
+    {
+      "path": ".next/static/chunks/3450-849cf5416215cc1f.js",
+      "upstream_sha256": "7890bcd2a39a3ed3c538f4dfe5c166a52ddbf62cb3509ed47ce4f7f926a32159",
+      "patched_sha256": "3ac8e2f4659f1302bf5db647ea768f1ffc30c43f59742e19b7a6c72534c4a214"
+    },
+    {
+      "path": ".next/static/chunks/1551-18d1afe69149078f.js",
+      "upstream_sha256": "9909b18b5e976d755e6889dfaf7c2fae3025188fb832773c731632142fd336ab",
+      "patched_sha256": "2cd829aa80361034204a866279865d5948dcde4d3b1d74ca558e20acd75d05d2"
+    },
+    {
+      "path": ".next/static/chunks/5454-4d40eaa9bc3b8f82.js",
+      "upstream_sha256": "31605ea128d040060f71f69a8841c8782065b1bc29fbd751d06d059c3d8f7cef",
+      "patched_sha256": "30ab9c81b7117094a360e8c0e9c3960efcd75145609742aae08cfbff299ae98d"
+    },
+    {
+      "path": ".next/static/chunks/5750-4bc9c47d51f58f2e.js",
+      "upstream_sha256": "7813e3225d33cdb6000f53d260f4681fdeefc26f2b64ee56a592d32e88a38e43",
+      "patched_sha256": "1b63bccc63f983b5f34993179c17c624325ee1411aa40115664f18f53e099d7a"
+    },
+    {
+      "path": ".next/static/chunks/9347.ef125ab74f4fc87d.js",
+      "upstream_sha256": "528f2c958d4ffdc39be7f2b49b37b9b4c47f32940193383d5e4a090fa4ec41ea",
+      "patched_sha256": "f8f8feee06a62bedb1833935234f5430ca98564b4d2e7034230d8cc7f387aae9"
+    },
+    {
+      "path": ".next/static/chunks/9797-994ed73175354c60.js",
+      "upstream_sha256": "f79d060da066a5271ac605dabbc395fd52b718df59fad8ef804a18c4b7f33ed3",
+      "patched_sha256": "1fecb13a94e87a9d0e5e851d068f809c1bbce77faf220d581571fac110c60bea"
+    },
+    {
+      "path": ".next/static/chunks/webpack-b9a1eccb0c94dba8.js",
+      "upstream_sha256": "23cd2eeb3cab03d37e56d3b244a00de76ca7e1cd473a9cb8d03aee2fae1c3f05",
+      "patched_sha256": "9d7c78b98d68edb7de06d596a82a391d9afdab90d93025f79dd8f41079a0a9b0"
+    },
+    {
+      "path": ".next/static/chunks/6896-441cf43825adeefb.js",
+      "upstream_sha256": "89202998ee30bd79d59808219ad36c3f900a53e8b8937532af1890648331f76f",
+      "patched_sha256": "e40153d57f2e4c3a08bfc9d18c3156b2a1f7aaf0af1f3e31a2d30319ab344e1c"
+    },
+    {
+      "path": ".next/static/chunks/7306.9daf7ebd715d14a3.js",
+      "upstream_sha256": "14dedc20504b2b02fffe23b8b135d3fadef027588e7eaec25b5a565aba3216e3",
+      "patched_sha256": "ee3903f3ef312fa7d499c1f108f9314ce6b294e8ab9311d7cd1c579e445c5db0"
+    },
+    {
+      "path": ".next/server/app/chat.html",
+      "snapshot": "references/.next/server/app/chat.html",
+      "upstream_sha256": "0340dd079c398b3a88eed1cc4aa2c47f3a10176f3e2b4c95a993ed4515f52afc",
+      "patched_sha256": "75a570080a5cf81344793977fd71e3d12a963e660ac937f1bf577fed96d8669a"
+    },
+    {
+      "path": ".next/server/app/chat.rsc",
+      "snapshot": "references/.next/server/app/chat.rsc",
+      "upstream_sha256": "cfd4e2f09cd6ecc41f952d0668094255b041892800e4e0910d18a668c0605909",
+      "patched_sha256": "02365dbaabb192acdcf16e5c8619de57479074afb795d74bddeaa2c7457904fe"
+    },
+    {
+      "path": ".next/server/app/chat.segments/_full.segment.rsc",
+      "snapshot": "references/.next/server/app/chat.segments/_full.segment.rsc",
+      "upstream_sha256": "cfd4e2f09cd6ecc41f952d0668094255b041892800e4e0910d18a668c0605909",
+      "patched_sha256": "02365dbaabb192acdcf16e5c8619de57479074afb795d74bddeaa2c7457904fe"
+    },
+    {
+      "path": ".next/server/app/chat.segments/!KHdvcmtzcGFjZSk/chat/__PAGE__.segment.rsc",
+      "snapshot": "references/.next/server/app/chat.segments/!KHdvcmtzcGFjZSk/chat/__PAGE__.segment.rsc",
+      "upstream_sha256": "f260cad76c5cf854ecc25ec96c2404090fecff82c60e2c4b3392417a113dcc89",
+      "patched_sha256": "3c47193c3df51e5afd44fda8a9af6a025f95988ebc05bbf5a3cc6969a0bb4249"
+    },
+    {
+      "path": ".next/server/app/(workspace)/chat/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/chat/page_client-reference-manifest.js",
+      "upstream_sha256": "4b6ab00dadb907d1a5fe435a603258ce80f0fd4baa4a0c3e669b1da98692849c",
+      "patched_sha256": "539aa322d420e394391538525c64c47dab504444871ac53051457c93c60f1201"
+    },
+    {
+      "path": ".next/server/app/(workspace)/partners/groups/[groupId]/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/partners/groups/[groupId]/page_client-reference-manifest.js",
+      "upstream_sha256": "47ec9c3c729d72706ee360aa62da4c48ad5f32b2d08d5a5e07b0fbdd0c22cf8e",
+      "patched_sha256": "a6ecff50666b04bfcb1d2651865adedaa6e43292bc750ea623dd0aeccba29b31"
+    },
+    {
+      "path": ".next/server/app/(workspace)/learning/reading/[workspaceId]/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/learning/reading/[workspaceId]/page_client-reference-manifest.js",
+      "upstream_sha256": "bd6ce1b956338cd4c6a5af8d1f72fd073b2c432095ceb9e27caa62a10cf257ba",
+      "patched_sha256": "3166ed724fe920afc125ea547a86cc94df2cc6b1de1dde82a82f052a1a49a20a"
+    },
+    {
+      "path": ".next/server/app/(workspace)/learning/reading/[workspaceId]/sessions/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/learning/reading/[workspaceId]/sessions/page_client-reference-manifest.js",
+      "upstream_sha256": "4e7dedded362786681f57440cbc88ec11ee457efce4eb96df7d84588ff40cadd",
+      "patched_sha256": "95477e3bdb46b551587ef53a2608c6c904b49d9107e4bb154254eefc70a8f484"
+    },
+    {
+      "path": ".next/server/app/(workspace)/learning/reading/[workspaceId]/sessions/[sessionId]/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/learning/reading/[workspaceId]/sessions/[sessionId]/page_client-reference-manifest.js",
+      "upstream_sha256": "12535b964c8ca969f6751e3718035d93b7754ce4e729e7af81d60886060ee93d",
+      "patched_sha256": "830d5c6d9c3294d50701f1f97c40c5129aa5d3bd75050d796015927326039b6d"
+    },
+    {
+      "path": ".next/server/app/(workspace)/learning/mastery/[pathId]/sessions/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/learning/mastery/[pathId]/sessions/page_client-reference-manifest.js",
+      "upstream_sha256": "347d7a5ebc27ae359907062771f0bffcd6c9e9639d6c123d26284dfe6f1deff4",
+      "patched_sha256": "571628f54ab99b0d86b66e1e656c4d93220fbbae91c09e3e92c9fd6bf331c238"
+    },
+    {
+      "path": ".next/server/app/(workspace)/learning/mastery/[pathId]/sessions/[sessionId]/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/learning/mastery/[pathId]/sessions/[sessionId]/page_client-reference-manifest.js",
+      "upstream_sha256": "77020df29f3be42d4cd04154f6178cdc939064456f114c5ef67b99e11078812b",
+      "patched_sha256": "e5f21083745789a1f7c66bb7b4d79dc2848fff43a20dff0a9f4705564c1f6b94"
+    },
+    {
+      "path": ".next/server/app/(workspace)/chat/[sessionId]/page_client-reference-manifest.js",
+      "snapshot": "references/.next/server/app/(workspace)/chat/[sessionId]/page_client-reference-manifest.js",
+      "upstream_sha256": "f5931544dcebb37d8456a4d0d33cdcd570d077d3bebcc7e194816c050f02d94a",
+      "patched_sha256": "329cf727c689103ac81ccddcdb897c1c814e8572af0ceaf24f273f8947862625"
+    },
+    {
+      "path": ".next/build-manifest.json",
+      "snapshot": "references/.next/build-manifest.json",
+      "upstream_sha256": "7030da689c21663e495384dd97c6f78b5bb56ba669cdf5855c4be26180adf06f",
+      "patched_sha256": "e4ce066acbc540cced5087d81f794acc1017d71235e206c4dc27ce6d22a9220a"
+    },
+    {
+      "path": ".next/static/chunks/9347.ef125ab74f4fc87d-diagrams20261015r2.js",
+      "added": true,
+      "patched_sha256": "f8f8feee06a62bedb1833935234f5430ca98564b4d2e7034230d8cc7f387aae9"
+    },
+    {
+      "path": ".next/static/chunks/9797-994ed73175354c60-images20261014.js",
+      "added": true,
+      "patched_sha256": "1fecb13a94e87a9d0e5e851d068f809c1bbce77faf220d581571fac110c60bea"
+    },
+    {
+      "path": ".next/static/chunks/5454-4d40eaa9bc3b8f82-continue20261015.js",
+      "added": true,
+      "patched_sha256": "30ab9c81b7117094a360e8c0e9c3960efcd75145609742aae08cfbff299ae98d"
+    },
+    {
+      "path": ".next/static/chunks/6896-441cf43825adeefb-diagrams20261015r2.js",
+      "added": true,
+      "patched_sha256": "e40153d57f2e4c3a08bfc9d18c3156b2a1f7aaf0af1f3e31a2d30319ab344e1c"
+    },
+    {
+      "path": ".next/static/chunks/7306.9daf7ebd715d14a3-diagrams20261015r3.js",
+      "added": true,
+      "patched_sha256": "ee3903f3ef312fa7d499c1f108f9314ce6b294e8ab9311d7cd1c579e445c5db0"
+    },
+    {
+      "path": ".next/static/chunks/webpack-b9a1eccb0c94dba8-diagrams20261015r3.js",
+      "added": true,
+      "patched_sha256": "9d7c78b98d68edb7de06d596a82a391d9afdab90d93025f79dd8f41079a0a9b0"
+    },
+    {
+      "path": ".next/static/chunks/webpack-b9a1eccb0c94dba8-diagrams20261015r2.js",
+      "added": true,
+      "patched_sha256": "9d7c78b98d68edb7de06d596a82a391d9afdab90d93025f79dd8f41079a0a9b0"
+    },
+    {
+      "path": ".next/static/chunks/5454-4d40eaa9bc3b8f82-images20261014.js",
+      "added": true,
+      "patched_sha256": "30ab9c81b7117094a360e8c0e9c3960efcd75145609742aae08cfbff299ae98d"
+    },
+    {
+      "path": ".next/static/chunks/webpack-b9a1eccb0c94dba8-images20261014r2.js",
+      "added": true,
+      "patched_sha256": "9d7c78b98d68edb7de06d596a82a391d9afdab90d93025f79dd8f41079a0a9b0"
+    },
+    {
+      "path": ".next/static/chunks/webpack-b9a1eccb0c94dba8-continue20261015.js",
+      "added": true,
+      "patched_sha256": "9d7c78b98d68edb7de06d596a82a391d9afdab90d93025f79dd8f41079a0a9b0"
+    },
+    {
+      "path": ".next/static/chunks/9347.ef125ab74f4fc87d-images20261014.js",
+      "added": true,
+      "patched_sha256": "f8f8feee06a62bedb1833935234f5430ca98564b4d2e7034230d8cc7f387aae9"
+    },
+    {
+      "path": ".next/static/chunks/webpack-b9a1eccb0c94dba8-diagrams20261015.js",
+      "added": true,
+      "patched_sha256": "9d7c78b98d68edb7de06d596a82a391d9afdab90d93025f79dd8f41079a0a9b0"
+    },
+    {
+      "path": ".next/static/chunks/9347.ef125ab74f4fc87d-diagrams20261015.js",
+      "added": true,
+      "patched_sha256": "f8f8feee06a62bedb1833935234f5430ca98564b4d2e7034230d8cc7f387aae9"
+    },
+    {
+      "path": ".next/static/chunks/6896-441cf43825adeefb-diagrams20261015.js",
+      "added": true,
+      "patched_sha256": "e40153d57f2e4c3a08bfc9d18c3156b2a1f7aaf0af1f3e31a2d30319ab344e1c"
+    }
+  ]
+}
