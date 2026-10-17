@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deeptutor-local-learning-continuity"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.entry-points."deeptutor.extensions"]
+learning_continuity = "deeptutor_learning_continuity.extension:LearningContinuityExtension"
+
+[project.entry-points."deeptutor.tools"]
+conversation_search = "deeptutor_learning_continuity.tools:ConversationSearch"
+conversation_read = "deeptutor_learning_continuity.tools:ConversationRead"
+question_review = "deeptutor_learning_continuity.tools:QuestionReview"
+
+[tool.setuptools.packages.find]
+include = ["deeptutor_learning_continuity*"]
+
+[tool.setuptools.package-data]
+deeptutor_learning_continuity = ["prompt.md"]
