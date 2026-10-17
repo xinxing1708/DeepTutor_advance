@@ -1,0 +1,30 @@
+{
+  "tools/question_bank.py": {
+    "original": "bec4fde79308de85a4fd1ac59565157dd79bc291388cef8dbd391a6f8c2cd30c",
+    "patched": "7f3f518f6dc7f7cac8f6bdda8e1ad315054d59d05bfe17befaeb43add6834754"
+  },
+  "tools/builtin/__init__.py": {
+    "original": "4a8b8e33bc3264af3ead63b2445df400e0b7d2d78d469e3e004a60bdda4937ed",
+    "patched": "cd27299452e26988eddd3b08dfb8b58a5be1477f99320651854a350fea682c29"
+  },
+  "tools/prompting/hints/en/question_bank.yaml": {
+    "original": "7a3b97c90b0f40ee1ae8747a60ab835ab81a64146b7a5dc002c76a5dcdbabc72",
+    "patched": "37bece446028ddae8fbbe644e2a2a2e0a91d91844900c0ee8611f5bc3cf8d5b6"
+  },
+  "tools/prompting/hints/zh/question_bank.yaml": {
+    "original": "57f97b508ee24836f95b0c665b1733bff311fc5b13c18f4485ea038f33906101",
+    "patched": "b8c887e440d9ab9a0103fc825e38eeb388c211ea5318dbfeacd1e7231d500b3a"
+  },
+  "services/session/quiz_context.py": {
+    "original": null,
+    "patched": "09cd11f20faba0b7ad8cdba506e65dd2441d1ac539d1b550a8525915b8386f2f"
+  },
+  "services/session/turns/executor.py": {
+    "original": "d6c1b6417c307bd584bbed7c9883a41beb949c0dd3e6b801cf9df68c9b6d249f",
+    "patched": "46b0025967413a4580da0e23749af05ac055920ccc68c65a6f9afea026993994"
+  },
+  "api/routers/sessions.py": {
+    "original": "ac26bd63ca4642d98923d34450fe07fc56d0bf3a368a54f0799dc971fcf71f4a",
+    "patched": "be4ccb400e6842b4de3746154cf49a3a23429ff927b49580e2fcb7439eb19b75"
+  }
+}
