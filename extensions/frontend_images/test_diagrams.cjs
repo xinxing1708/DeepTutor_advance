@@ -31,4 +31,14 @@ assert.equal(renderer.pre({children:{props:{className:'language-python'}}}).type
 const escaped=inline.default({content:'题目\\n\\n```mermaid\\nflowchart LR\\nA[\\"实体\\"]-->B\\n```\\n公式 \\frac{1}{2}'}).props.children;
 assert(escaped.includes('```mermaid\nflowchart LR\nA["实体"]-->B'));
 assert(escaped.includes('\\frac{1}{2}'),'Mathematical escapes remain intact');
+// XML repair: both compiled entries must parse the rendered markup as an HTML
+// fragment and verify the serialised result, instead of trusting a failed strict
+// parse of the raw render output.
+for(const [label,src] of [['card',chunk('6896-441cf43825adeefb.js')],['body',chunk('7306.9daf7ebd715d14a3.js')]]){
+  assert(src.includes('parseMermaidSvgFragment('),`${label} entry must use the HTML fragment parser`);
+  assert(src.includes('assertSerializedSvgIsValid('),`${label} entry must verify serialized XML`);
+  assert(!src.includes('parseFromString(svg,"image/svg+xml")'),`${label} entry must not strict-parse the raw render output`);
+  assert(src.includes('securityLevel:"strict"'),`${label} entry must keep securityLevel strict`);
+}
+assert.equal(viewer.parseMermaidSvgFragment,undefined,'helpers stay module-internal');
 console.log('PASS: real modules render Mermaid cards, split historical five graphs, preserve connected topology and ordinary code');

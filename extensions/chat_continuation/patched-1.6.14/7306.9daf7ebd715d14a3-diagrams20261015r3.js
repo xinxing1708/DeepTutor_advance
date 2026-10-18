@@ -41,8 +41,34 @@
       return[lines[0],...group,...suffix].join("\n");
     });
   }
+  const SVG_NS="http://www.w3.org/2000/svg";
+  // Mermaid renders flowchart labels as HTML inside <foreignObject> unless the
+  // global htmlLabels option is off, and DOMPurify normalises void elements such
+  // as <br/> to HTML form "<br>". Parsing the rendered markup as strict XML
+  // therefore fails with a parsererror document. Parse it as an HTML fragment
+  // instead, where the <foreignObject> integration point applies HTML rules.
+  function parseMermaidSvgFragment(markup){
+    if(typeof markup!=="string"||!markup.trim())throw new Error("Mermaid returned an empty SVG");
+    const holder=document.createElement("div");
+    holder.innerHTML=markup;
+    const roots=Array.from(holder.children).filter(el=>el.localName!=="parsererror");
+    const root=roots.length===1?roots[0]:null;
+    if(!root||root.localName!=="svg"||root.namespaceURI!==SVG_NS)throw new Error("Mermaid output has no valid SVG root element");
+    return root;
+  }
+  // Serialise, then prove the result is still well-formed XML. The viewer puts
+  // the string into dangerouslySetInnerHTML, so a parsererror document must never
+  // be passed on as if it were a diagram.
+  function assertSerializedSvgIsValid(root){
+    const markup=new XMLSerializer().serializeToString(root);
+    const doc=new DOMParser().parseFromString(markup,"image/svg+xml");
+    const element=doc.documentElement;
+    if(doc.getElementsByTagName("parsererror").length>0||!element||element.localName!=="svg"||element.namespaceURI!==SVG_NS)
+      throw new Error("Mermaid SVG did not survive strict XML verification");
+    return markup;
+  }
   function readable(svg){
-    const doc=new DOMParser().parseFromString(svg,"image/svg+xml"),root=doc.documentElement;
+    const root=parseMermaidSvgFragment(svg);
     const box=(root.getAttribute("viewBox")||"").split(/\s+/).map(Number);
     if(box.length===4&&box.every(Number.isFinite)){
       root.setAttribute("width",String(Math.ceil(box[2])));root.setAttribute("height",String(Math.ceil(box[3])));
@@ -61,7 +87,7 @@
       const color=luminance>0.179?"#171717":"#ffffff";
       for(const label of node.querySelectorAll("text,tspan,.nodeLabel,.nodeLabel *")){label.style.setProperty("fill",color,"important");label.style.setProperty("color",color,"important");}
     }
-    return{svg:new XMLSerializer().serializeToString(root),width:box[2]||800,height:box[3]||500};
+    return{svg:assertSerializedSvgIsValid(root),width:box[2]||800,height:box[3]||500};
   }
   function cleanup(id){document.getElementById(id)?.remove();document.getElementById(`d${id}`)?.remove();}
   function Mermaid({chart,className=""}){
