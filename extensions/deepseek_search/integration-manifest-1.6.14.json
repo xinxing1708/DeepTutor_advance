@@ -1,0 +1,18 @@
+{
+  "services/config/provider_runtime.py": {
+    "original": "68cafcc06f148a1783aac93f1d72d5dbb5b38dd2bd3ee00f18967df091b9bf47",
+    "patched": "57662c6e8b4e003ce3459f2d5b36d9894e969b96315b553e9b2b33af2d5d55af"
+  },
+  "services/provider_registry.py": {
+    "original": "5746c86b8b36f7af1161bc1fafbb5556a9c59f2d7816a6f75b6a9593fa9fd875",
+    "patched": "f1e90a480a0ef9dd481fed2bb42a4752b0eb1c13961724a8deaa321068fd9316"
+  },
+  "services/search/providers/__init__.py": {
+    "original": "4a84012db823d1f3b6b56ad4c9174853abaca5e71b74ef09e239bea0afead300",
+    "patched": "add949e6d1213f415935c44ea70aa72abc08c30cd5472fe113816407b6d92ab4"
+  },
+  "services/search/providers/deepseek.py": {
+    "original": null,
+    "patched": "39706e479f2f0c564c3f0a213f0823dcbd3d6304932c56317a631543e2770b1a"
+  }
+}
