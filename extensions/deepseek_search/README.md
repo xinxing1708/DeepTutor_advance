@@ -38,4 +38,4 @@ python extensions/deepseek_search/manage_integration.py restore
 python extensions/deepseek_search/tests/test_deepseek_search_provider.py
 ```
 
-真实搜索联调需在设置中配置 DeepSeek 官方 API Key。Search 按成功请求计费（每 1000 次 5 元），失败、空结果与超时不计费；账号级 QPS 为 5。
+真实搜索联调需在设置中配置 DeepSeek 官方 API Key；该路径已在 1.6.14 上由使用者完成，搜索测试返回真实结果，默认搜索引擎切换为 DeepSeek。Search 按成功请求计费（每 1000 次 5 元），失败、空结果与超时不计费；账号级 QPS 为 5。
